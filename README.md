@@ -8,7 +8,7 @@ Use:
 4. Evaluate TidalFXSynths.scd in Supercollider
 
 That's it!
-Spectral thanks to Mads Kjeldgaard for writing (SpectralTricks)[https://github.com/madskjeldgaard/SpectralTricks] - the format of this repo is largely copied from that.
+Spectral thanks to Mads Kjeldgaard for writing [SpectralTricks](https://github.com/madskjeldgaard/SpectralTricks) - the format of this repo is largely copied from that.
 
 ## The parameters:
 
