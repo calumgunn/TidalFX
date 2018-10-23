@@ -1,0 +1,34 @@
+Configuring hosc-0.15...
+Building hosc-0.15...
+Preprocessing library hosc-0.15...
+[ 1 of 20] Compiling Sound.OSC.Wait   ( Sound/OSC/Wait.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Wait.o )
+[ 2 of 20] Compiling Sound.OSC.Type   ( Sound/OSC/Type.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Type.o )
+[ 3 of 20] Compiling Sound.OSC.Time   ( Sound/OSC/Time.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Time.o )
+[ 4 of 20] Compiling Sound.OSC.Normalise ( Sound/OSC/Normalise.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Normalise.o )
+[ 5 of 20] Compiling Sound.OSC.Datum  ( Sound/OSC/Datum.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Datum.o )
+[ 6 of 20] Compiling Sound.OSC.Coding.Cast ( Sound/OSC/Coding/Cast.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Coding/Cast.o )
+[ 7 of 20] Compiling Sound.OSC.Coding.Byte ( Sound/OSC/Coding/Byte.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Coding/Byte.o )
+[ 8 of 20] Compiling Sound.OSC.Coding.Decode.Base ( Sound/OSC/Coding/Decode/Base.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Coding/Decode/Base.o )
+[ 9 of 20] Compiling Sound.OSC.Coding.Decode.Binary ( Sound/OSC/Coding/Decode/Binary.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Coding/Decode/Binary.o )
+[10 of 20] Compiling Sound.OSC.Coding.Encode.Base ( Sound/OSC/Coding/Encode/Base.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Coding/Encode/Base.o )
+[11 of 20] Compiling Sound.OSC.Coding.Encode.Builder ( Sound/OSC/Coding/Encode/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Coding/Encode/Builder.o )
+[12 of 20] Compiling Sound.OSC.Coding ( Sound/OSC/Coding.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Coding.o )
+[13 of 20] Compiling Sound.OSC.Class  ( Sound/OSC/Class.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Class.o )
+[14 of 20] Compiling Sound.OSC.Core   ( Sound/OSC/Core.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Core.o )
+[15 of 20] Compiling Sound.OSC.Transport.FD ( Sound/OSC/Transport/FD.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Transport/FD.o )
+[16 of 20] Compiling Sound.OSC.Transport.FD.TCP ( Sound/OSC/Transport/FD/TCP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Transport/FD/TCP.o )
+[17 of 20] Compiling Sound.OSC.Transport.FD.UDP ( Sound/OSC/Transport/FD/UDP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Transport/FD/UDP.o )
+
+Sound/OSC/Transport/FD/UDP.hs:24:21: warning: [-Wdeprecations]
+    In the use of ‘sClose’ (imported from Network.Socket):
+    Deprecated: "use 'close'"
+
+Sound/OSC/Transport/FD/UDP.hs:54:24: warning: [-Wdeprecations]
+    In the use of ‘bindSocket’ (imported from Network.Socket):
+    Deprecated: "use 'bind'"
+[18 of 20] Compiling Sound.OSC.FD     ( Sound/OSC/FD.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/FD.o )
+[19 of 20] Compiling Sound.OSC.Transport.Monad ( Sound/OSC/Transport/Monad.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC/Transport/Monad.o )
+[20 of 20] Compiling Sound.OSC        ( Sound/OSC.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/OSC.o )
+Installing library in
+/Users/calumgunn/.stack/snapshots/x86_64-osx/lts-8.21/8.0.2/lib/x86_64-osx-ghc-8.0.2/hosc-0.15-36hSAILRQ9o42KV5ndsHZ1
+Registering hosc-0.15...

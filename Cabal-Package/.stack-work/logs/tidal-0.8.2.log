@@ -1,0 +1,27 @@
+Configuring tidal-0.8.2...
+Building tidal-0.8.2...
+Preprocessing library tidal-0.8.2...
+
+Sound/Tidal/Parse.hs:1:55: warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[ 1 of 13] Compiling Sound.Tidal.Utils ( Sound/Tidal/Utils.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Utils.o )
+[ 2 of 13] Compiling Sound.Tidal.Time ( Sound/Tidal/Time.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Time.o )
+[ 3 of 13] Compiling Sound.Tidal.Tempo ( Sound/Tidal/Tempo.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Tempo.o )
+
+Sound/Tidal/Tempo.hs:26:10: warning: [-Wmissing-methods]
+    • No explicit implementation for
+        either ‘==’ or ‘/=’
+    • In the instance declaration for ‘Eq WS.Connection’
+[ 4 of 13] Compiling Sound.Tidal.Pattern ( Sound/Tidal/Pattern.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Pattern.o )
+[ 5 of 13] Compiling Sound.Tidal.Parse ( Sound/Tidal/Parse.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Parse.o )
+[ 6 of 13] Compiling Sound.Tidal.Stream ( Sound/Tidal/Stream.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Stream.o )
+[ 7 of 13] Compiling Sound.Tidal.Params ( Sound/Tidal/Params.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Params.o )
+[ 8 of 13] Compiling Sound.Tidal.Transition ( Sound/Tidal/Transition.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Transition.o )
+[ 9 of 13] Compiling Sound.Tidal.OscStream ( Sound/Tidal/OscStream.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/OscStream.o )
+[10 of 13] Compiling Sound.Tidal.SuperCollider ( Sound/Tidal/SuperCollider.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/SuperCollider.o )
+[11 of 13] Compiling Sound.Tidal.Dirt ( Sound/Tidal/Dirt.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Dirt.o )
+[12 of 13] Compiling Sound.Tidal.Strategies ( Sound/Tidal/Strategies.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Strategies.o )
+[13 of 13] Compiling Sound.Tidal.Context ( Sound/Tidal/Context.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Sound/Tidal/Context.o )
+Installing library in
+/Users/calumgunn/.stack/snapshots/x86_64-osx/lts-8.21/8.0.2/lib/x86_64-osx-ghc-8.0.2/tidal-0.8.2-FVsj8POTXQVEdZl0q3VdX1
+Registering tidal-0.8.2...

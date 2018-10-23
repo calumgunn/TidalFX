@@ -1,0 +1,13 @@
+Configuring logict-0.6.0.2...
+Building logict-0.6.0.2...
+Preprocessing library logict-0.6.0.2...
+[1 of 2] Compiling Control.Monad.Logic.Class ( Control/Monad/Logic/Class.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Control/Monad/Logic/Class.o )
+
+Control/Monad/Logic/Class.hs:27:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[2 of 2] Compiling Control.Monad.Logic ( Control/Monad/Logic.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Control/Monad/Logic.o )
+Installing library in
+/Users/calumgunn/.stack/snapshots/x86_64-osx/lts-8.21/8.0.2/lib/x86_64-osx-ghc-8.0.2/logict-0.6.0.2-IvIE0u44i1X7ob5HesINuT
+Registering logict-0.6.0.2...

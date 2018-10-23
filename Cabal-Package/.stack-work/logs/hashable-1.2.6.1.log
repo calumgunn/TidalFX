@@ -1,0 +1,15 @@
+Configuring hashable-1.2.6.1...
+Building hashable-1.2.6.1...
+Preprocessing library hashable-1.2.6.1...
+[1 of 4] Compiling Data.Hashable.Class ( Data/Hashable/Class.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Hashable/Class.o )
+[2 of 4] Compiling Data.Hashable.Generic ( Data/Hashable/Generic.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Hashable/Generic.o )
+
+Data/Hashable/Generic.hs:21:1: warning: [-Wunused-imports]
+    The import of ‘Data.Bits’ is redundant
+      except perhaps to import instances from ‘Data.Bits’
+    To import instances alone, use: import Data.Bits()
+[3 of 4] Compiling Data.Hashable.Lifted ( Data/Hashable/Lifted.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Hashable/Lifted.o )
+[4 of 4] Compiling Data.Hashable    ( Data/Hashable.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Hashable.o )
+Installing library in
+/Users/calumgunn/.stack/snapshots/x86_64-osx/lts-8.21/8.0.2/lib/x86_64-osx-ghc-8.0.2/hashable-1.2.6.1-I8TtfTMw8kCEo1q1h2BgxU
+Registering hashable-1.2.6.1...

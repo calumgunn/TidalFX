@@ -1,0 +1,16 @@
+Configuring blaze-builder-0.4.0.2...
+Building blaze-builder-0.4.0.2...
+Preprocessing library blaze-builder-0.4.0.2...
+[ 1 of 10] Compiling Blaze.ByteString.Builder.Internal.Write ( Blaze/ByteString/Builder/Internal/Write.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/Internal/Write.o )
+[ 2 of 10] Compiling Blaze.ByteString.Builder.Compat.Write ( Blaze/ByteString/Builder/Compat/Write.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/Compat/Write.o )
+[ 3 of 10] Compiling Blaze.ByteString.Builder.Int ( Blaze/ByteString/Builder/Int.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/Int.o )
+[ 4 of 10] Compiling Blaze.ByteString.Builder.Word ( Blaze/ByteString/Builder/Word.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/Word.o )
+[ 5 of 10] Compiling Blaze.ByteString.Builder.Char8 ( Blaze/ByteString/Builder/Char8.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/Char8.o )
+[ 6 of 10] Compiling Blaze.ByteString.Builder.Char.Utf8 ( Blaze/ByteString/Builder/Char/Utf8.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/Char/Utf8.o )
+[ 7 of 10] Compiling Blaze.ByteString.Builder.Html.Utf8 ( Blaze/ByteString/Builder/Html/Utf8.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/Html/Utf8.o )
+[ 8 of 10] Compiling Blaze.ByteString.Builder.ByteString ( Blaze/ByteString/Builder/ByteString.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/ByteString.o )
+[ 9 of 10] Compiling Blaze.ByteString.Builder.HTTP ( Blaze/ByteString/Builder/HTTP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/HTTP.o )
+[10 of 10] Compiling Blaze.ByteString.Builder ( Blaze/ByteString/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Blaze/ByteString/Builder.o )
+Installing library in
+/Users/calumgunn/.stack/snapshots/x86_64-osx/lts-8.21/8.0.2/lib/x86_64-osx-ghc-8.0.2/blaze-builder-0.4.0.2-CGB8BvrFgghHy5bLy0SFOg
+Registering blaze-builder-0.4.0.2...

@@ -1,0 +1,145 @@
+Configuring hmt-0.15...
+Building hmt-0.15...
+Preprocessing library hmt-0.15...
+[ 1 of 88] Compiling Music.Theory.Z12.Morris_1974 ( Music/Theory/Z12/Morris_1974.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Morris_1974.o )
+[ 2 of 88] Compiling Music.Theory.Z12.Literature ( Music/Theory/Z12/Literature.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Literature.o )
+[ 3 of 88] Compiling Music.Theory.Z12 ( Music/Theory/Z12.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12.o )
+[ 4 of 88] Compiling Music.Theory.Z12.TTO ( Music/Theory/Z12/TTO.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/TTO.o )
+[ 5 of 88] Compiling Music.Theory.Z   ( Music/Theory/Z.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z.o )
+[ 6 of 88] Compiling Music.Theory.Z.SRO ( Music/Theory/Z/SRO.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z/SRO.o )
+[ 7 of 88] Compiling Music.Theory.Z.Read_1978 ( Music/Theory/Z/Read_1978.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z/Read_1978.o )
+[ 8 of 88] Compiling Music.Theory.Z12.Read_1978 ( Music/Theory/Z12/Read_1978.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Read_1978.o )
+[ 9 of 88] Compiling Music.Theory.Unicode ( Music/Theory/Unicode.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Unicode.o )
+[10 of 88] Compiling Music.Theory.Tuple ( Music/Theory/Tuple.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuple.o )
+
+Music/Theory/Tuple.hs:9:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[11 of 88] Compiling Music.Theory.Time.Notation ( Music/Theory/Time/Notation.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Time/Notation.o )
+[12 of 88] Compiling Music.Theory.Time.Duration ( Music/Theory/Time/Duration.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Time/Duration.o )
+[13 of 88] Compiling Music.Theory.Tiling.Canon ( Music/Theory/Tiling/Canon.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tiling/Canon.o )
+[14 of 88] Compiling Music.Theory.Tiling.Johnson_2004 ( Music/Theory/Tiling/Johnson_2004.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tiling/Johnson_2004.o )
+[15 of 88] Compiling Music.Theory.Tiling.Johnson_2009 ( Music/Theory/Tiling/Johnson_2009.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tiling/Johnson_2009.o )
+[16 of 88] Compiling Music.Theory.Set.List ( Music/Theory/Set/List.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Set/List.o )
+[17 of 88] Compiling Music.Theory.Set.Set ( Music/Theory/Set/Set.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Set/Set.o )
+[18 of 88] Compiling Music.Theory.Pitch.Note ( Music/Theory/Pitch/Note.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Pitch/Note.o )
+[19 of 88] Compiling Music.Theory.Pitch.Spelling ( Music/Theory/Pitch/Spelling.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Pitch/Spelling.o )
+[20 of 88] Compiling Music.Theory.Maybe ( Music/Theory/Maybe.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Maybe.o )
+[21 of 88] Compiling Music.Theory.Math ( Music/Theory/Math.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Math.o )
+[22 of 88] Compiling Music.Theory.Meter.Barlow_1987 ( Music/Theory/Meter/Barlow_1987.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Meter/Barlow_1987.o )
+[23 of 88] Compiling Music.Theory.List ( Music/Theory/List.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/List.o )
+[24 of 88] Compiling Music.Theory.Permutations ( Music/Theory/Permutations.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Permutations.o )
+[25 of 88] Compiling Music.Theory.Permutations.List ( Music/Theory/Permutations/List.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Permutations/List.o )
+[26 of 88] Compiling Music.Theory.Xenakis.S4 ( Music/Theory/Xenakis/S4.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Xenakis/S4.o )
+[27 of 88] Compiling Music.Theory.Permutations.Morris_1984 ( Music/Theory/Permutations/Morris_1984.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Permutations/Morris_1984.o )
+[28 of 88] Compiling Music.Theory.Pitch ( Music/Theory/Pitch.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Pitch.o )
+[29 of 88] Compiling Music.Theory.Pitch.Name ( Music/Theory/Pitch/Name.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Pitch/Name.o )
+[30 of 88] Compiling Music.Theory.Pitch.Spelling.Cluster ( Music/Theory/Pitch/Spelling/Cluster.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Pitch/Spelling/Cluster.o )
+[31 of 88] Compiling Music.Theory.Time.Bel1990.R ( Music/Theory/Time/Bel1990/R.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Time/Bel1990/R.o )
+[32 of 88] Compiling Music.Theory.Xenakis.Sieve ( Music/Theory/Xenakis/Sieve.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Xenakis/Sieve.o )
+[33 of 88] Compiling Music.Theory.Z.Forte_1973 ( Music/Theory/Z/Forte_1973.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z/Forte_1973.o )
+[34 of 88] Compiling Music.Theory.Z12.Forte_1973 ( Music/Theory/Z12/Forte_1973.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Forte_1973.o )
+[35 of 88] Compiling Music.Theory.Metric.Buchler_1998 ( Music/Theory/Metric/Buchler_1998.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Metric/Buchler_1998.o )
+[36 of 88] Compiling Music.Theory.Metric.Morris_1980 ( Music/Theory/Metric/Morris_1980.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Metric/Morris_1980.o )
+[37 of 88] Compiling Music.Theory.Z12.Rahn_1980 ( Music/Theory/Z12/Rahn_1980.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Rahn_1980.o )
+[38 of 88] Compiling Music.Theory.Z12.Castren_1994 ( Music/Theory/Z12/Castren_1994.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Castren_1994.o )
+[39 of 88] Compiling Music.Theory.Z12.Lewin_1980 ( Music/Theory/Z12/Lewin_1980.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Lewin_1980.o )
+[40 of 88] Compiling Music.Theory.Z12.SRO ( Music/Theory/Z12/SRO.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/SRO.o )
+[41 of 88] Compiling Music.Theory.Z12.Morris_1987 ( Music/Theory/Z12/Morris_1987.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Morris_1987.o )
+[42 of 88] Compiling Music.Theory.Z12.Drape_1999 ( Music/Theory/Z12/Drape_1999.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Drape_1999.o )
+[43 of 88] Compiling Music.Theory.Z12.Morris_1987.Parse ( Music/Theory/Z12/Morris_1987/Parse.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Z12/Morris_1987/Parse.o )
+[44 of 88] Compiling Music.Theory.Interval ( Music/Theory/Interval.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Interval.o )
+[45 of 88] Compiling Music.Theory.Interval.Name ( Music/Theory/Interval/Name.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Interval/Name.o )
+[46 of 88] Compiling Music.Theory.Interval.Spelling ( Music/Theory/Interval/Spelling.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Interval/Spelling.o )
+[47 of 88] Compiling Music.Theory.Key ( Music/Theory/Key.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Key.o )
+[48 of 88] Compiling Music.Theory.Function ( Music/Theory/Function.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Function.o )
+[49 of 88] Compiling Music.Theory.Time.Seq ( Music/Theory/Time/Seq.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Time/Seq.o )
+
+Music/Theory/Time/Seq.hs:9:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[50 of 88] Compiling Music.Theory.Either ( Music/Theory/Either.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Either.o )
+[51 of 88] Compiling Music.Theory.Tuning ( Music/Theory/Tuning.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning.o )
+[52 of 88] Compiling Music.Theory.Interval.Barlow_1987 ( Music/Theory/Interval/Barlow_1987.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Interval/Barlow_1987.o )
+[53 of 88] Compiling Music.Theory.Tuning.Alves ( Music/Theory/Tuning/Alves.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Alves.o )
+[54 of 88] Compiling Music.Theory.Tuning.Alves_1997 ( Music/Theory/Tuning/Alves_1997.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Alves_1997.o )
+[55 of 88] Compiling Music.Theory.Tuning.ET ( Music/Theory/Tuning/ET.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/ET.o )
+[56 of 88] Compiling Music.Theory.Tuning.Gann ( Music/Theory/Tuning/Gann.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Gann.o )
+[57 of 88] Compiling Music.Theory.Tuning.Meyer_1929 ( Music/Theory/Tuning/Meyer_1929.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Meyer_1929.o )
+[58 of 88] Compiling Music.Theory.Tuning.Microtonal_Synthesis ( Music/Theory/Tuning/Microtonal_Synthesis.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Microtonal_Synthesis.o )
+[59 of 88] Compiling Music.Theory.Tuning.Polansky_1978 ( Music/Theory/Tuning/Polansky_1978.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Polansky_1978.o )
+[60 of 88] Compiling Music.Theory.Tuning.Polansky_1984 ( Music/Theory/Tuning/Polansky_1984.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Polansky_1984.o )
+[61 of 88] Compiling Music.Theory.Tuning.Polansky_1985c ( Music/Theory/Tuning/Polansky_1985c.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Polansky_1985c.o )
+[62 of 88] Compiling Music.Theory.Tuning.Polansky_1990 ( Music/Theory/Tuning/Polansky_1990.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Polansky_1990.o )
+[63 of 88] Compiling Music.Theory.Tuning.Riley ( Music/Theory/Tuning/Riley.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Riley.o )
+[64 of 88] Compiling Music.Theory.Tuning.Scala ( Music/Theory/Tuning/Scala.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Scala.o )
+[65 of 88] Compiling Music.Theory.Tuning.Syntonic ( Music/Theory/Tuning/Syntonic.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Syntonic.o )
+[66 of 88] Compiling Music.Theory.Tuning.Werckmeister ( Music/Theory/Tuning/Werckmeister.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tuning/Werckmeister.o )
+[67 of 88] Compiling Music.Theory.Dynamic_Mark ( Music/Theory/Dynamic_Mark.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Dynamic_Mark.o )
+[68 of 88] Compiling Music.Theory.Duration ( Music/Theory/Duration.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Duration.o )
+[69 of 88] Compiling Music.Theory.Duration.Name ( Music/Theory/Duration/Name.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Duration/Name.o )
+[70 of 88] Compiling Music.Theory.Duration.Name.Abbreviation ( Music/Theory/Duration/Name/Abbreviation.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Duration/Name/Abbreviation.o )
+[71 of 88] Compiling Music.Theory.Duration.RQ ( Music/Theory/Duration/RQ.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Duration/RQ.o )
+[72 of 88] Compiling Music.Theory.Duration.Annotation ( Music/Theory/Duration/Annotation.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Duration/Annotation.o )
+[73 of 88] Compiling Music.Theory.Duration.RQ.Tied ( Music/Theory/Duration/RQ/Tied.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Duration/RQ/Tied.o )
+[74 of 88] Compiling Music.Theory.Duration.RQ.Division ( Music/Theory/Duration/RQ/Division.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Duration/RQ/Division.o )
+[75 of 88] Compiling Music.Theory.Time_Signature ( Music/Theory/Time_Signature.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Time_Signature.o )
+[76 of 88] Compiling Music.Theory.Duration.CT ( Music/Theory/Duration/CT.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Duration/CT.o )
+
+Music/Theory/Duration/CT.hs:137:12: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Eq t0)
+          arising from a use of ‘f’ at Music/Theory/Duration/CT.hs:137:12
+        (Num t0)
+          arising from a use of ‘f’ at Music/Theory/Duration/CT.hs:137:12
+        (Num t0)
+          arising from the literal ‘1’ at Music/Theory/Duration/CT.hs:127:31
+        (Enum t0)
+          arising from the arithmetic sequence ‘1 .. ’
+          at Music/Theory/Duration/CT.hs:127:30-34
+    • In the first argument of ‘map’, namely ‘f’
+      In the expression: map f (zip3 [1 .. ] mrq dv')
+      In the expression:
+        let
+          dv' = concatMap (zip [1 .. ]) dv
+          f (p, rq, (g, du)) = let ... in ...
+        in map f (zip3 [1 .. ] mrq dv')
+
+Music/Theory/Duration/CT.hs:137:12: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Eq t0)
+          arising from a use of ‘f’ at Music/Theory/Duration/CT.hs:137:12
+        (Num t0)
+          arising from a use of ‘f’ at Music/Theory/Duration/CT.hs:137:12
+        (Enum t0)
+          arising from the arithmetic sequence ‘1 .. ’
+          at Music/Theory/Duration/CT.hs:137:20-24
+    • In the first argument of ‘map’, namely ‘f’
+      In the expression: map f (zip3 [1 .. ] mrq dv')
+      In the expression:
+        let
+          dv' = concatMap (zip [1 .. ]) dv
+          f (p, rq, (g, du)) = let ... in ...
+        in map f (zip3 [1 .. ] mrq dv')
+[77 of 88] Compiling Music.Theory.Duration.Sequence.Notate ( Music/Theory/Duration/Sequence/Notate.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Duration/Sequence/Notate.o )
+
+Music/Theory/Duration/Sequence/Notate.hs:20:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[78 of 88] Compiling Music.Theory.Tempo_Marking ( Music/Theory/Tempo_Marking.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Tempo_Marking.o )
+[79 of 88] Compiling Music.Theory.Contour.Polansky_1992 ( Music/Theory/Contour/Polansky_1992.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Contour/Polansky_1992.o )
+[80 of 88] Compiling Music.Theory.Metric.Polansky_1996 ( Music/Theory/Metric/Polansky_1996.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Metric/Polansky_1996.o )
+[81 of 88] Compiling Music.Theory.Combinations ( Music/Theory/Combinations.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Combinations.o )
+[82 of 88] Compiling Music.Theory.Clef ( Music/Theory/Clef.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Clef.o )
+[83 of 88] Compiling Music.Theory.Instrument.Choir ( Music/Theory/Instrument/Choir.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Instrument/Choir.o )
+[84 of 88] Compiling Music.Theory.Block_Design.Johnson_2007 ( Music/Theory/Block_Design/Johnson_2007.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Block_Design/Johnson_2007.o )
+[85 of 88] Compiling Music.Theory.Bjorklund ( Music/Theory/Bjorklund.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Bjorklund.o )
+[86 of 88] Compiling Music.Theory.Array.MD ( Music/Theory/Array/MD.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Array/MD.o )
+[87 of 88] Compiling Music.Theory.Array.CSV ( Music/Theory/Array/CSV.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Array/CSV.o )
+[88 of 88] Compiling Music.Theory.Array.CSV.Midi ( Music/Theory/Array/CSV/Midi.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Music/Theory/Array/CSV/Midi.o )
+Installing library in
+/Users/calumgunn/.stack/snapshots/x86_64-osx/lts-8.21/8.0.2/lib/x86_64-osx-ghc-8.0.2/hmt-0.15-KsNjuJFYGTeCLQ8PMigBwk
+Registering hmt-0.15...

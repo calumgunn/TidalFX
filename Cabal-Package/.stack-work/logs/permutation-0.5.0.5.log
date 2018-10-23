@@ -1,0 +1,134 @@
+[1 of 2] Compiling Main             ( /private/var/folders/b3/w56c7f7523z44dc4z7573rdr0000gn/T/stack41390/permutation-0.5.0.5/Setup.lhs, /private/var/folders/b3/w56c7f7523z44dc4z7573rdr0000gn/T/stack41390/permutation-0.5.0.5/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/Main.o )
+
+/private/var/folders/b3/w56c7f7523z44dc4z7573rdr0000gn/T/stack41390/permutation-0.5.0.5/Setup.lhs:2:3: warning: [-Wdeprecations]
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+
+/private/var/folders/b3/w56c7f7523z44dc4z7573rdr0000gn/T/stack41390/permutation-0.5.0.5/Setup.lhs:13:11: warning: [-Wdeprecations]
+    In the use of ‘runTests’
+    (imported from Distribution.Simple, but defined in Distribution.Simple.UserHooks):
+    Deprecated: "Please use the new testing interface instead!"
+[2 of 2] Compiling StackSetupShim   ( /Users/calumgunn/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /private/var/folders/b3/w56c7f7523z44dc4z7573rdr0000gn/T/stack41390/permutation-0.5.0.5/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /private/var/folders/b3/w56c7f7523z44dc4z7573rdr0000gn/T/stack41390/permutation-0.5.0.5/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/setup ...
+
+In file included from /var/folders/b3/w56c7f7523z44dc4z7573rdr0000gn/T/ghc42883_0/ghc_8.c:1:0: error:
+    
+
+In file included from /Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/Rts.h:217:0: error:
+    
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:505:5: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF || ZERO_SLOP_FOR_SANITY_CHECK
+    ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:502:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_LDV_PROF'
+#define ZERO_SLOP_FOR_LDV_PROF     (defined(PROFILING))
+                                    ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:505:31: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF || ZERO_SLOP_FOR_SANITY_CHECK
+                              ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                    ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:505:31: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:56: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                                       ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:523:5: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF && !ZERO_SLOP_FOR_SANITY_CHECK
+    ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:502:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_LDV_PROF'
+#define ZERO_SLOP_FOR_LDV_PROF     (defined(PROFILING))
+                                    ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:523:32: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF && !ZERO_SLOP_FOR_SANITY_CHECK
+                               ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                    ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:523:32: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:56: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                                       ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:552:5: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF && !ZERO_SLOP_FOR_SANITY_CHECK
+    ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:502:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_LDV_PROF'
+#define ZERO_SLOP_FOR_LDV_PROF     (defined(PROFILING))
+                                    ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:552:32: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+#if ZERO_SLOP_FOR_LDV_PROF && !ZERO_SLOP_FOR_SANITY_CHECK
+                               ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:37: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                    ^
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:552:32: error:
+     warning: macro expansion producing 'defined' has undefined behavior [-Wexpansion-to-defined]
+
+/Users/calumgunn/.stack/programs/x86_64-osx/ghc-8.0.2/lib/ghc-8.0.2/include/rts/storage/ClosureMacros.h:503:56: error:
+     note: expanded from macro 'ZERO_SLOP_FOR_SANITY_CHECK'
+#define ZERO_SLOP_FOR_SANITY_CHECK (defined(DEBUG) && !defined(THREADED_RTS))
+                                                       ^
+9 warnings generated.
+Configuring permutation-0.5.0.5...
+Building permutation-0.5.0.5...
+Preprocessing library permutation-0.5.0.5...
+[ 1 of 13] Compiling Data.IntArray    ( lib/Data/IntArray.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IntArray.o )
+
+lib/Data/IntArray.hs:46:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature: isTrue :: Int# -> Bool
+[ 2 of 13] Compiling Data.Permute.Base ( lib/Data/Permute/Base.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Permute/Base.o )
+
+lib/Data/Permute/Base.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Foreign’ is redundant
+      except perhaps to import instances from ‘Foreign’
+    To import instances alone, use: import Foreign()
+[ 3 of 13] Compiling Data.Permute.IOBase ( lib/Data/Permute/IOBase.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Permute/IOBase.o )
+[ 4 of 13] Compiling Data.Permute.MPermute ( lib/Data/Permute/MPermute.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Permute/MPermute.o )
+[ 5 of 13] Compiling Data.Permute.IO  ( lib/Data/Permute/IO.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Permute/IO.o )
+[ 6 of 13] Compiling Data.Permute.ST  ( lib/Data/Permute/ST.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Permute/ST.o )
+[ 7 of 13] Compiling Data.Permute     ( lib/Data/Permute.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Permute.o )
+[ 8 of 13] Compiling Data.Choose.Base ( lib/Data/Choose/Base.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Choose/Base.o )
+
+lib/Data/Choose/Base.hs:15:1: warning: [-Wunused-imports]
+    The import of ‘Foreign’ is redundant
+      except perhaps to import instances from ‘Foreign’
+    To import instances alone, use: import Foreign()
+[ 9 of 13] Compiling Data.Choose.IOBase ( lib/Data/Choose/IOBase.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Choose/IOBase.o )
+[10 of 13] Compiling Data.Choose.MChoose ( lib/Data/Choose/MChoose.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Choose/MChoose.o )
+[11 of 13] Compiling Data.Choose.IO   ( lib/Data/Choose/IO.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Choose/IO.o )
+[12 of 13] Compiling Data.Choose.ST   ( lib/Data/Choose/ST.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Choose/ST.o )
+[13 of 13] Compiling Data.Choose      ( lib/Data/Choose.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Choose.o )
+Installing library in
+/Users/calumgunn/.stack/snapshots/x86_64-osx/lts-8.21/8.0.2/lib/x86_64-osx-ghc-8.0.2/permutation-0.5.0.5-Dp20SBIlD3jIqbR9xhG71a
+Registering permutation-0.5.0.5...

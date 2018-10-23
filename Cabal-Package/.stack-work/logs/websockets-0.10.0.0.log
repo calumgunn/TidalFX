@@ -1,0 +1,37 @@
+Configuring websockets-0.10.0.0...
+Building websockets-0.10.0.0...
+Preprocessing library websockets-0.10.0.0...
+[ 1 of 11] Compiling Network.WebSockets.Hybi13.Mask ( src/Network/WebSockets/Hybi13/Mask.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Hybi13/Mask.o )
+[ 2 of 11] Compiling Network.WebSockets.Http ( src/Network/WebSockets/Http.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Http.o )
+[ 3 of 11] Compiling Network.WebSockets.Types ( src/Network/WebSockets/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Types.o )
+[ 4 of 11] Compiling Network.WebSockets.Hybi13.Demultiplex ( src/Network/WebSockets/Hybi13/Demultiplex.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Hybi13/Demultiplex.o )
+[ 5 of 11] Compiling Network.WebSockets.Stream ( src/Network/WebSockets/Stream.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Stream.o )
+[ 6 of 11] Compiling Network.WebSockets.Hybi13 ( src/Network/WebSockets/Hybi13.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Hybi13.o )
+[ 7 of 11] Compiling Network.WebSockets.Protocol ( src/Network/WebSockets/Protocol.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Protocol.o )
+[ 8 of 11] Compiling Network.WebSockets.Connection ( src/Network/WebSockets/Connection.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Connection.o )
+[ 9 of 11] Compiling Network.WebSockets.Server ( src/Network/WebSockets/Server.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Server.o )
+
+src/Network/WebSockets/Server.hs:62:3: warning: [-Wdeprecations]
+    In the use of ‘sClose’ (imported from Network.Socket):
+    Deprecated: "use 'close'"
+
+src/Network/WebSockets/Server.hs:68:50: warning: [-Wdeprecations]
+    In the use of ‘sClose’ (imported from Network.Socket):
+    Deprecated: "use 'close'"
+
+src/Network/WebSockets/Server.hs:80:5: warning: [-Wdeprecations]
+    In the use of ‘sClose’ (imported from Network.Socket):
+    Deprecated: "use 'close'"
+
+src/Network/WebSockets/Server.hs:85:9: warning: [-Wdeprecations]
+    In the use of ‘bindSocket’ (imported from Network.Socket):
+    Deprecated: "use 'bind'"
+[10 of 11] Compiling Network.WebSockets.Client ( src/Network/WebSockets/Client.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets/Client.o )
+
+src/Network/WebSockets/Client.hs:72:10: warning: [-Wdeprecations]
+    In the use of ‘sClose’ (imported from Network.Socket):
+    Deprecated: "use 'close'"
+[11 of 11] Compiling Network.WebSockets ( src/Network/WebSockets.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/WebSockets.o )
+Installing library in
+/Users/calumgunn/.stack/snapshots/x86_64-osx/lts-8.21/8.0.2/lib/x86_64-osx-ghc-8.0.2/websockets-0.10.0.0-CtOH1KC7G3K60pqnqWcCfe
+Registering websockets-0.10.0.0...

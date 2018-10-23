@@ -1,0 +1,31 @@
+Configuring parsec-3.1.11...
+Building parsec-3.1.11...
+Preprocessing library parsec-3.1.11...
+[ 1 of 25] Compiling Text.Parsec.Pos  ( Text/Parsec/Pos.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Pos.o )
+[ 2 of 25] Compiling Text.ParserCombinators.Parsec.Pos ( Text/ParserCombinators/Parsec/Pos.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec/Pos.o )
+[ 3 of 25] Compiling Text.Parsec.Error ( Text/Parsec/Error.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Error.o )
+[ 4 of 25] Compiling Text.Parsec.Prim ( Text/Parsec/Prim.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Prim.o )
+[ 5 of 25] Compiling Text.Parsec.String ( Text/Parsec/String.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/String.o )
+[ 6 of 25] Compiling Text.Parsec.Text ( Text/Parsec/Text.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Text.o )
+[ 7 of 25] Compiling Text.Parsec.Text.Lazy ( Text/Parsec/Text/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Text/Lazy.o )
+[ 8 of 25] Compiling Text.ParserCombinators.Parsec.Error ( Text/ParserCombinators/Parsec/Error.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec/Error.o )
+[ 9 of 25] Compiling Text.ParserCombinators.Parsec.Prim ( Text/ParserCombinators/Parsec/Prim.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec/Prim.o )
+[10 of 25] Compiling Text.Parsec.Combinator ( Text/Parsec/Combinator.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Combinator.o )
+[11 of 25] Compiling Text.Parsec.Expr ( Text/Parsec/Expr.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Expr.o )
+[12 of 25] Compiling Text.ParserCombinators.Parsec.Combinator ( Text/ParserCombinators/Parsec/Combinator.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec/Combinator.o )
+[13 of 25] Compiling Text.Parsec.Char ( Text/Parsec/Char.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Char.o )
+[14 of 25] Compiling Text.Parsec.Token ( Text/Parsec/Token.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Token.o )
+[15 of 25] Compiling Text.ParserCombinators.Parsec.Token ( Text/ParserCombinators/Parsec/Token.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec/Token.o )
+[16 of 25] Compiling Text.ParserCombinators.Parsec.Char ( Text/ParserCombinators/Parsec/Char.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec/Char.o )
+[17 of 25] Compiling Text.ParserCombinators.Parsec ( Text/ParserCombinators/Parsec.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec.o )
+[18 of 25] Compiling Text.ParserCombinators.Parsec.Expr ( Text/ParserCombinators/Parsec/Expr.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec/Expr.o )
+[19 of 25] Compiling Text.Parsec.ByteString.Lazy ( Text/Parsec/ByteString/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/ByteString/Lazy.o )
+[20 of 25] Compiling Text.Parsec.ByteString ( Text/Parsec/ByteString.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/ByteString.o )
+[21 of 25] Compiling Text.Parsec      ( Text/Parsec.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec.o )
+[22 of 25] Compiling Text.Parsec.Language ( Text/Parsec/Language.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Language.o )
+[23 of 25] Compiling Text.ParserCombinators.Parsec.Language ( Text/ParserCombinators/Parsec/Language.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec/Language.o )
+[24 of 25] Compiling Text.Parsec.Perm ( Text/Parsec/Perm.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Parsec/Perm.o )
+[25 of 25] Compiling Text.ParserCombinators.Parsec.Perm ( Text/ParserCombinators/Parsec/Perm.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/ParserCombinators/Parsec/Perm.o )
+Installing library in
+/Users/calumgunn/.stack/snapshots/x86_64-osx/lts-8.21/8.0.2/lib/x86_64-osx-ghc-8.0.2/parsec-3.1.11-113irVHGgd88sRnywByDNw
+Registering parsec-3.1.11...
