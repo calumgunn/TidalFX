@@ -1,5 +1,5 @@
 # TidalFX
-A haskell package adding weirder effects to Tidal
+A haskell package adding weirder effects to Tidal from non-standard UGens.
 
 Use:
 1. Download this repo from github
