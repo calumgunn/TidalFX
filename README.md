@@ -16,4 +16,13 @@ Spectral thanks to Mads Kjeldgaard for writing [SpectralTricks](https://github.c
 #### Waveloss
 `# waveloss n`
 
+Waveset-based sample dropping.
+
 Accepts an integer controlling how many samples out of 100 are dropped. Requires the `WaveLoss` UGen from sc3-synths.
+
+#### Squiz
+`# squiz n`
+
+A wave squeezing pitch-shifter.
+
+Accepts an integer denoting 'pitchratio'. A value of 1 plays audio normally, while a value of 2 will raise by one octave, and so on.

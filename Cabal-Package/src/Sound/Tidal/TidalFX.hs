@@ -6,3 +6,8 @@ import Sound.Tidal.Context
 waveloss :: Pattern Int -> ParamPattern
 waveloss = make' VI waveloss_p
 waveloss_p = I "waveloss" Nothing
+
+-- Squiz: weird pitch shifting
+squiz :: Pattern Int -> ParamPattern
+squiz = make' VI squiz_p
+squiz_p = I "squiz" Nothing
