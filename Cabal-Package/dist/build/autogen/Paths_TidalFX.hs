@@ -1,6 +1,6 @@
 {-# LANGUAGE CPP #-}
+{-# LANGUAGE NoRebindableSyntax #-}
 {-# OPTIONS_GHC -fno-warn-missing-import-lists #-}
-{-# OPTIONS_GHC -fno-warn-implicit-prelude #-}
 module Paths_TidalFX (
     version,
     getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir,
@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/Users/calumgunn/Library/Haskell/bin"
-libdir     = "/Users/calumgunn/Library/Haskell/ghc-8.2.1-x86_64/lib/TidalFX-0.1.0.0"
-dynlibdir  = "/Users/calumgunn/Library/Haskell/ghc-8.2.1-x86_64/lib/x86_64-osx-ghc-8.2.1"
-datadir    = "/Users/calumgunn/Library/Haskell/share/ghc-8.2.1-x86_64/TidalFX-0.1.0.0"
-libexecdir = "/Users/calumgunn/Library/Haskell/libexec/x86_64-osx-ghc-8.2.1/TidalFX-0.1.0.0"
-sysconfdir = "/Users/calumgunn/Library/Haskell/etc"
+bindir     = "/Users/calumgunn/.cabal/bin"
+libdir     = "/Users/calumgunn/.cabal/lib/x86_64-osx-ghc-8.4.3/TidalFX-0.1.0.0-4SdvA26oDH24nyraj8yADc"
+dynlibdir  = "/Users/calumgunn/.cabal/lib/x86_64-osx-ghc-8.4.3"
+datadir    = "/Users/calumgunn/.cabal/share/x86_64-osx-ghc-8.4.3/TidalFX-0.1.0.0"
+libexecdir = "/Users/calumgunn/.cabal/libexec/x86_64-osx-ghc-8.4.3/TidalFX-0.1.0.0"
+sysconfdir = "/Users/calumgunn/.cabal/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "TidalFX_bindir") (\_ -> return bindir)

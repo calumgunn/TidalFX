@@ -8,11 +8,11 @@ var numChannels =  ~dirt.numChannels;
 ~dirt.addModule('waveloss', { |dirtEvent|
 	dirtEvent.sendSynth('waveloss' ++ ~dirt.numChannels,
 		[
-			drop: ~drop,
+			drop: ~waveloss,
 			out: ~out
 		]
 	)
-}, { ~drop.notNil });
+}, { true });
 
 SynthDef("waveloss" ++ numChannels, { |out, drop = 1|
 	var sig;
