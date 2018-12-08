@@ -1,3 +1,6 @@
+# NOTE:
+This repository is now outdated, as these effects are part of Tidal 1.0.0.
+
 # TidalFX
 A haskell package adding weirder effects to Tidal from non-standard UGens.
 
